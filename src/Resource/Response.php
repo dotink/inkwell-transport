@@ -2,7 +2,7 @@
 {
 	use Inkwell\Transport;
 
-	class Response extends Transport\Message
+	class Response extends Transport\Message implements Transport\ResponseInterface
 	{
 		protected $request = NULL;
 

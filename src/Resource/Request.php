@@ -2,7 +2,7 @@
 {
 	use Inkwell\Transport;
 
-	class Request extends Transport\Message
+	class Request extends Transport\Message implements Transport\RequestInterface
 	{
 		/**
 		 *

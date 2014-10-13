@@ -2,5 +2,6 @@
 {
 	Interface RequestInterface
 	{
+		public function getUrl();
 	}
 }
