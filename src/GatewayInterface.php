@@ -5,12 +5,12 @@
 		/**
 		 *
 		 */
-		public function populate(Message $message);
+		public function populate($message);
 
 
 		/**
 		 *
 		 */
-		public function transport(Message $message);
+		public function transport($message);
 	}
 }
