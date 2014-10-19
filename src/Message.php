@@ -5,15 +5,15 @@
 		/**
 		 *
 		 */
-		protected $body = NULL;
+		protected $data = NULL;
 
 
 		/**
 		 *
 		 */
-		public function getBody()
+		public function get()
 		{
-			return $this->body;
+			return $this->data;
 		}
 
 
@@ -29,9 +29,9 @@
 		/**
 		 *
 		 */
-		public function setBody($body)
+		public function set($data)
 		{
-			$this->body = $body;
+			$this->data = $data;
 		}
 	}
 }

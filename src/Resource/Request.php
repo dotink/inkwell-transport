@@ -25,6 +25,8 @@
 		public function setURL($url)
 		{
 			$this->url = $url;
+
+			return $this;
 		}
 	}
 }
