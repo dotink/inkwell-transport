@@ -32,7 +32,7 @@
 		/**
 		 *
 		 */
-		public function setRequest(Request $request)
+		public function setRequest(Transport\RequestInterface $request)
 		{
 			$this->request = $request;
 

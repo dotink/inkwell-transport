@@ -28,6 +28,6 @@
 		 * @param Request $request The original request object to which this response responds
 		 * @return ResponseInterface The called instance for method chaining
 		 */
-		public function setRequest(Request $request);
+		public function setRequest(RequestInterface $request);
 	}
 }
