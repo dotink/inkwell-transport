@@ -28,7 +28,6 @@
 	"extra": {
 		"opus": {
 			"inkwell/framework": {
-				"plugin" : ""
 			}
 		}
 	}
