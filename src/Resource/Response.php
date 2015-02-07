@@ -15,13 +15,19 @@
 	class Response extends Transport\Message implements Transport\ResponseInterface
 	{
 		/**
+		 * The request object to which this is a response
 		 *
+		 * @access protected
+		 * @var Transport\RequestInterface
 		 */
 		protected $request = NULL;
 
 
 		/**
+		 * Get the request object to which this is a response
 		 *
+		 * @access public
+		 * @return Transport\RequestInterface The request object to which this is a response
 		 */
 		public function getRequest()
 		{
@@ -30,7 +36,11 @@
 
 
 		/**
+		 * Set the request object to which this is a response
 		 *
+		 * @access public
+		 * @param Transport\RequestInterface $request The request object to which this is a response
+		 * @return Response The called instance for method chaining
 		 */
 		public function setRequest(Transport\RequestInterface $request)
 		{

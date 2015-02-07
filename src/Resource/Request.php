@@ -27,7 +27,7 @@
 		 * Get the target for the request
 		 *
 		 * @access public
-		 * @return string|Object A string or object (with `__toString`) representing the target
+		 * @return mixed A string or object (with `__toString`) representing the target
 		 */
 		public function getTarget()
 		{
