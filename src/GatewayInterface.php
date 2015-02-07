@@ -13,13 +13,19 @@
 	interface GatewayInterface
 	{
 		/**
+		 * Populates the message upon receiving
 		 *
+		 * @access public
+		 * @param Message $message The message to populate
 		 */
 		public function populate($message);
 
 
 		/**
+		 * Transports a message to the other endpoint
 		 *
+		 * @access public
+		 * @param Message $message The message to transport
 		 */
 		public function transport($message);
 	}

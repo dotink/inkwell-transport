@@ -15,26 +15,36 @@
 	class Request extends Transport\Message implements Transport\RequestInterface
 	{
 		/**
+		 * The target for the request
 		 *
+		 * @access protected
+		 * @var string|Object
 		 */
-		protected $url = NULL;
+		protected $target = NULL;
 
 
 		/**
+		 * Get the target for the request
 		 *
+		 * @access public
+		 * @return string|Object A string or object (with `__toString`) representing the target
 		 */
-		public function getURL()
+		public function getTarget()
 		{
-			return $this->url;
+			return $this->target;
 		}
 
 
 		/**
+		 * Set the target for the request
 		 *
+		 * @access public
+		 * @param string|Object $target A string or object (with `__toString`) representing the target
+		 * @return RequestInterface The called instance for method chaining
 		 */
-		public function setURL($url)
+		public function setTarget($target)
 		{
-			$this->url = $url;
+			$this->target = $target;
 
 			return $this;
 		}

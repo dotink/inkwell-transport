@@ -13,21 +13,21 @@
 	Interface RequestInterface
 	{
 		/**
-		 * Get the URL for the request
+		 * Get the target for the request
 		 *
 		 * @access public
-		 * @return string|Object A string or object (implementing `__toString`) URL
+		 * @return string|Object A string or object (with `__toString`) representing the target
 		 */
-		public function getUrl();
+		public function getTarget();
 
 
 		/**
-		 * Set the URL for the request
+		 * Set the target for the request
 		 *
 		 * @access public
-		 * @param string|Object $url A string or object (implementing `__toString`) URL
+		 * @param string|Object $target A string or object (with `__toString`) representing the target
 		 * @return RequestInterface The called instance for method chaining
 		 */
-		public function setUrl($url);
+		public function setTarget($target);
 	}
 }

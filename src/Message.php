@@ -1,7 +1,7 @@
 <?php namespace Inkwell\Transport
 {
 	/**
-	 * Common message class for transporting data
+	 * Common message class for transported data
 	 *
 	 * @copyright Copyright (c) 2015, Matthew J. Sahagian
 	 * @author Matthew J. Sahagian [mjs] <msahagian@dotink.org>
