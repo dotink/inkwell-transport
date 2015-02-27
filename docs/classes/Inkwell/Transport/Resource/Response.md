@@ -18,7 +18,7 @@ _Please reference the LICENSE.md file at the root of this distribution_
 
 	<tr>
 		<th>Alias</th>
-		<th>Namespace / Class</th>
+		<th>Namespace / Target</th>
 	</tr>
 	
 	<tr>
@@ -140,6 +140,4 @@ Set the request object to which this is a response
 ### Inherited Methods
 
 [`Transport\Message::get()`](../Message.md#get) [`Transport\Message::set()`](../Message.md#set) 
-
-
 
