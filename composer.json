@@ -22,8 +22,14 @@
 		"imarc/opus": "^1.0.0",
 		"dotink/flourish-core": "^1.0.0"
 	},
+	"require-dev": {
+		"dotink/lab": "^1.1.0"
+	},
 	"autoload": {
 		"classmap": ["src/"]
+	},
+	"config": {
+		"secure-http": false
 	},
 	"extra": {
 		"opus": {
